@@ -5,8 +5,9 @@ import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
 
 function App() {
+  
   return (
-    <div>
+    <div style = {{backgroundColor : "red",padding: "20px", color: "white",borderRadius: "10px"}}>
       <h3>onClick</h3>
       <Tickler />
       <hr />
